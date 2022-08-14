@@ -1,0 +1,158 @@
+
+.m-auto{
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.align-center{
+    align-items: center;
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #666;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-weight: 100;
+}
+h3{
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 16px;
+}
+
+.navig {
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+
+.navig li{
+    list-style: none;
+    width: 33%;
+    display: flex;
+}
+
+.navig li a{
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.portfolio{
+    background-color: #fff;
+}
+
+.portfolio img{
+    width: 100%;
+}
+
+.portfolio .portfolio-items{
+    flex-wrap: wrap;
+}
+
+.portfolio .wid1{
+    text-align: center;
+}
+
+.contact{
+
+}
+.contact h4{
+    margin-right: 8px;
+}
+.contact .contact-detail{
+    justify-content: center;
+}
+.contact .contact-detail h4{
+    margin: 0;
+    margin-right: 8px;
+}
+.contact footer{
+    justify-content: space-between;
+}
+.contact footer .footer-nav-wrapper{
+    width: 80%;
+}
+.d-flex{
+    display: flex;
+}
+.deskNone{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+.d-inline{
+    display: inline;
+}
+.wid2{
+    width: 100%;
+}
+
+.wid1{
+    min-width: 50%;
+    width: 50%;
+}
+.partA{
+    padding: 8px;
+}
+.p-16{
+    padding: 16px;
+}
+.contact footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contact footer li{
+    list-style: none;
+}
+@media only screen and (max-width: 600px) {
+    .d-mobile-none{
+        display: none;
+    }
+    .mobFlex{
+        display: flex;
+    }
+    .w-mobile-100{
+        min-width: 100%;
+        width: 100%;
+    }
+    .wid1{
+        min-width: 100%;
+    }
+    .navig{
+        flex-direction: column;
+    }
+
+    .navig li {
+        width: 100%;
+        background-color: #f2f2f2;
+        margin: 2px;
+        padding: 8px;
+    }
+
+    .abr{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .contact footer .footer-nav-wrapper{
+        width: 100%;
+    }
+  }
+margin-auto1
+ {
+     flex-wrap: wrap;
+ }
